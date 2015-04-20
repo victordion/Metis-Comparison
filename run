@@ -1,0 +1,10 @@
+#! /bin/bash
+#Usage:
+# ../hmetis <GraphFile> <Nparts> <UBfactor> <Nruns> <Ctype> <RType> <VCycle> <Reconst> <dbglvl>
+
+
+
+for i in $(ls ../graphfile/*.hg);do
+    echo ${i}
+    ../hmetis ../graphfile/${i} 4 5 20 1 1 1 0 0
+done
