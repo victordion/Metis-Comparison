@@ -1,6 +1,15 @@
-# a hype-graph modeling of matrix
-# views each row as a vertex
-# views each column as a hyper edge
+#!/usr/bin/python2.7
+
+# Created on April 23 2015
+# Authored by Jianwei Cui
+
+# This script assumes a hyper-graph modeling of matrix
+# Views each row as a vertex
+# Views each column as a hyper edge
+
+# This script will take input of mtx file storing matrix in COO format
+# The output file will be a text file containing a hyper edge each time
+
 
 import os
 from os import listdir

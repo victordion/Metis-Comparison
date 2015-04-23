@@ -1,3 +1,5 @@
+#!/usr/bin/python2.7
+
 # turn a partional result (group index for each vertex) into the order of vertices
 # a hype-graph modeling of matrix
 # views each row as a vertex
